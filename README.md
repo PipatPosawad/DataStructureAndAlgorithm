@@ -1,7 +1,5 @@
 # Data structure and Algorithm
 
-[[_TOC_]]
-
 ## Array
 
 - Reverse
