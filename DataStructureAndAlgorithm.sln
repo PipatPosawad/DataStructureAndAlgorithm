@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveEven", "Array\RemoveE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimumValue", "Array\FindMinimumValue\FindMinimumValue.csproj", "{5ED0243B-7839-419F-AF20-A002C8FF5045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSecondMax", "Array\FindSecondMax\FindSecondMax.csproj", "{213D2A82-9C27-4E1D-861A-7BA811A3E183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSecondMax", "Array\FindSecondMax\FindSecondMax.csproj", "{213D2A82-9C27-4E1D-861A-7BA811A3E183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZerosToEnd", "Array\MoveZerosToEnd\MoveZerosToEnd.csproj", "{62E12899-813C-43A5-B684-CAFB1F5442A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZerosToEnd", "Array\MoveZerosToEnd\MoveZerosToEnd.csproj", "{62E12899-813C-43A5-B684-CAFB1F5442A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{7CC0AF61-ABCF-4117-8AC7-B8DBE4B3F732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "Sorting\SelectionSort\SelectionSort.csproj", "{445CEEDB-4F4E-46F5-817D-FED9CFA9756B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{62E12899-813C-43A5-B684-CAFB1F5442A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E12899-813C-43A5-B684-CAFB1F5442A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E12899-813C-43A5-B684-CAFB1F5442A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445CEEDB-4F4E-46F5-817D-FED9CFA9756B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445CEEDB-4F4E-46F5-817D-FED9CFA9756B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445CEEDB-4F4E-46F5-817D-FED9CFA9756B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445CEEDB-4F4E-46F5-817D-FED9CFA9756B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{5ED0243B-7839-419F-AF20-A002C8FF5045} = {C0731716-CDE9-43FA-A909-9B635D8965A8}
 		{213D2A82-9C27-4E1D-861A-7BA811A3E183} = {C0731716-CDE9-43FA-A909-9B635D8965A8}
 		{62E12899-813C-43A5-B684-CAFB1F5442A7} = {C0731716-CDE9-43FA-A909-9B635D8965A8}
+		{445CEEDB-4F4E-46F5-817D-FED9CFA9756B} = {7CC0AF61-ABCF-4117-8AC7-B8DBE4B3F732}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A15EAB0-0FEE-4022-937E-4539A7F1C3E7}
